@@ -1,1 +1,88 @@
-/* Your CSS here. */
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Georgia, serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card container */
+.card {
+  background-color: #4a4a4a;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Profile image */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+/* Name heading */
+.name {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Email link */
+.email-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: italic;
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+/* GitHub link */
+.github-link {
+  color: #4c0e79;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+/* Biography section */
+.bio {
+  text-align: left;
+}
+
+.bio p {
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.bio p:last-child {
+  margin-bottom: 0;
+}
